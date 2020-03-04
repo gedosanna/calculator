@@ -1,0 +1,71 @@
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons-container button {
+    flex-basis: 25%;
+    padding: 20px;
+    cursor: pointer;
+    outline: none;
+    color: rgb(32, 31, 31);
+    font-size: 20px;
+    border: 0.1px solid;
+}
+
+.buttons-container button#sum {
+    flex-basis: 50%;
+    border-bottom-right-radius: 5px;
+}
+
+.buttons-container button#zero {
+    border-bottom-left-radius: 5px;
+}
+
+.buttons-container button.darkest-gray-color {
+    background: linear-gradient(to right bottom, white, rgba(255, 255, 255, 0.85));
+    border-color:  rgba(255, 255, 255, 0.85);
+}
+
+.buttons-container button.gray-color {
+    background: linear-gradient(to right bottom, white, rgba(255, 255, 255, 0.87));
+    border-color: rgba(255, 255, 255, 0.87);
+}
+
+.buttons-container button.lighter-gray-color {
+    background: linear-gradient(to right bottom, white, rgba(255, 255, 255, 0.9));
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.buttons-container button.white-color {
+    background: linear-gradient(to right bottom, white, rgba(255, 255, 255, 0.95));
+    border-color: rgba(255, 255, 255, 0.95);
+}
+
+.buttons-container button.light:hover {
+    background: linear-gradient(to right, #bf97e7c9 , #e4b8a2);
+}
+
+.buttons-container button.purple-color {
+    background-color: #9900e6;
+    border-color: #9900e6;
+}
+
+.buttons-container button.purple-color:hover {
+    background-color: #ab44df;
+    border-color: #ab44df;
+}
+
+.buttons-container button.pink-color {
+    background-color: #e62c76;
+    border-color: #e62c76;
+}
+
+.buttons-container button.pink-color:hover {
+    background-color: #ff3399;
+} 
+
+.buttons-container button.pink-color,
+.buttons-container button.purple-color {
+    color: white;
+}
